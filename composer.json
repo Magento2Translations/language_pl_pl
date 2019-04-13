@@ -1,7 +1,7 @@
 {
   "name": "magento2translations/language_pl_pl",
   "description": "Polish (polski) Magento2 Language Pack (pl_PL) - From Magento2Translations",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://magento2translations.github.io/",
   "license": [
     "MIT"

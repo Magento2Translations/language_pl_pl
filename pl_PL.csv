@@ -1403,7 +1403,9 @@ Checkout,Zamówienie,module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Coś się poszło nie tak jak powinno podczas przetwarzania Twojego zamówienia. Prosimy spróbować ponownie później.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 nie rozszerza \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "Payment Method","Metoda płatności",module,Magento_Checkout
+"Payment Page","Strona płatności",module,Magento_Checkout
 "We can't find the product.","Produkt nie został odnaleziony.",module,Magento_Checkout
+"We found an invalid request for adding product to quote.","Znaleźliśmy błędne polecenia dodania produktu do zapytania.",module,Magento_Checkout
 "The product does not exist.","Produkt nie istnieje.",module,Magento_Checkout
 "We don't have some of the products you want.","Nie posiadamy kilku produktów, których potrzebujesz.",module,Magento_Checkout
 "We don't have as many of some products as you want.","Nie posiadamy tak dużej ilości produktów jakiej oczekujesz.",module,Magento_Checkout
@@ -1431,6 +1433,7 @@ Checkout,Zamówienie,module,Magento_Checkout
 Error!,Błąd!,module,Magento_Checkout
 "DB exception","Błąd bazy danych",module,Magento_Checkout
 Message,Wiadomość,module,Magento_Checkout
+"Print receipt","Wydrukuj paragon",module,Magento_Checkout
 "Apply Discount Code","Zastosuj kod rabatowy",module,Magento_Checkout
 "Enter discount code","Wprowadź kod rabatowy",module,Magento_Checkout
 "Apply Discount","Zastosuj zniżkę",module,Magento_Checkout
@@ -1449,7 +1452,7 @@ Subtotal,"Suma częściowa",module,Magento_Checkout
 "Edit item parameters","Zmień parametry",module,Magento_Checkout
 Edit,Zmień,module,Magento_Checkout
 "Remove item","Usuń produkt",module,Magento_Checkout
-"You have no items in your shopping cart.","Nie masz produktów w koszyku.",module,Magento_Checkout
+"You have no items in your shopping cart.","Nie posiadasz produktów w koszyku.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","Kliknij <a href=""%1"">tutaj</a>, aby kontynuować zakupy.",module,Magento_Checkout
 "Estimate Tax","Oszacuj podatek",module,Magento_Checkout
 "Estimate Shipping and Tax","Koszt dostawy i podatku",module,Magento_Checkout
@@ -1526,6 +1529,9 @@ Pages,Strony,module,Magento_Cms
 "Enabled by Default","Włączone domyślnie",module,Magento_Cms
 "Disabled by Default","Wyłączone domyślnie",module,Magento_Cms
 "Disabled Completely","Wyłączone kompletnie",module,Magento_Cms
+"This identifier is reserved for ""CMS No Route Page"" in configuration.","Ten identyfikator jest zarezerwowany dla ""CMS Brak Strony"" w konfiguracji.",module,Magento_Cms
+"This identifier is reserved for ""CMS Home Page"" in configuration.","Ten identyfikator jest zarezerwowany dla ""CMS Strona główna"" w konfiguracji.",module,Magento_Cms
+"This identifier is reserved for ""CMS No Cookies Page"" in configuration.","Ten identyfikator jest zarezerwowany dla ""Pliki cookie na stronie CMS "" w konfiguracji.",module,Magento_Cms
 "Could not save the page: %1","Nie można zapisać strony: %1",module,Magento_Cms
 "CMS Page with id ""%1"" does not exist.","strona CMS o id ""%1"" nie istnieje.",module,Magento_Cms
 "Could not delete the page: %1","Nie można usunąć strony: %1",module,Magento_Cms
@@ -1543,6 +1549,8 @@ Exception,Wyjątek,module,Magento_Cms
 "Could not create a directory.","Nie można utworzyć katalogu.",module,Magento_Cms
 Edit,Zmień,module,Magento_Cms
 Delete,Usuń,module,Magento_Cms
+"Delete %1","Usuń %1",module,Magento_Cms
+"Are you sure you want to delete a %1 record?","Czy na pewno chcesz usunąć rekord ""%1""?",module,Magento_Cms
 "All Store Views","Wszystkie widoki sklepu",module,Magento_Cms
 View,Zobacz,module,Magento_Cms
 "No files found","Nie znaleziono plików",module,Magento_Cms
@@ -1912,6 +1920,7 @@ Download,Pobierz,module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Jeśli jesteś zarejestrowanym płatnikiem VAT, proszę <a href=""%1""> kliknij tutaj,</a> aby wprowadzić swój adres do właściwego obliczenia podatku VAT.",module,Magento_Customer
 "Account Information","Dane konta",module,Magento_Customer
 "You saved the account information.","Dane konta zostały zapisane.",module,Magento_Customer
+"You did not sign in correctly or your account is temporarily disabled.","Nie zalogowałeś się poprawnie lub Twoje konto zostało tymczasowo wyłączone.",module,Magento_Customer
 "Password confirmation doesn't match entered password.","Potwierdzone hasło nie jest identyczne z wprowadzonym.",module,Magento_Customer
 "The password doesn't match this account.","Hasło nie pasuje do tego konta.",module,Magento_Customer
 "Please correct the email address.","Proszę poprawić adres e-mail.",module,Magento_Customer
@@ -1933,6 +1942,7 @@ Download,Pobierz,module,Magento_Customer
 "Please correct the quote items and try again.","Proszę poprawić wymienione elementy i spróbować ponownie.",module,Magento_Customer
 "You have revoked the customer's tokens.","Unieważniłeś token klienta.",module,Magento_Customer
 "We can't find a customer to revoke.","Nie możemy znaleźć klienta do odwołania.",module,Magento_Customer
+"Something went wrong while saving file.","Coś się zepsuło podczas zapisywania.",module,Magento_Customer
 "You deleted the customer group.","Usunięto grupę klientów.",module,Magento_Customer
 "The customer group no longer exists.","Grupa klientów już nie istnieje.",module,Magento_Customer
 Customers,Klienci,module,Magento_Customer
@@ -1966,12 +1976,15 @@ Customers,Klienci,module,Magento_Customer
 "No confirmation needed.","Nie potrzeba potwierdzenia.",module,Magento_Customer
 "Account already active","Konto już aktywne",module,Magento_Customer
 "Invalid confirmation token","Nieprawidłowy token potwierdzenia",module,Magento_Customer
+"The account is locked.","To konto jest zablokowane.",module,Magento_Customer
 "This account is not confirmed.","To konto nie zostało potwierdzone.",module,Magento_Customer
+"Please enter a password with at most %1 characters.","Proszę wprowadzić hasło z co najmniej %1 znaków.",module,Magento_Customer
 "Please enter a password with at least %1 characters.","Proszę wprowadzić hasło z co najmniej %1 znaków.",module,Magento_Customer
 "The password can't begin or end with a space.","Hasło nie można rozpocząć lub kończyć się spacją.",module,Magento_Customer
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimalna różność klas w haśle to %1. Klasy postaci: małe znaki, wielkie znaki, cyfry, znaki specjalne.",module,Magento_Customer
 "This customer already exists in this store.","Klient już istnieje w tym sklepie.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","Klient, z tym adresem e-mail już istnieje w serwisie.",module,Magento_Customer
+"Invalid value of ""%value"" provided for the %fieldName field.","Nieprawidłowa wartość ""%value"" przewidziana polu %fieldname.",module,Magento_Customer
 "Reset password token mismatch.","Token resetowania hasła jest niepoprawny.",module,Magento_Customer
 "Reset password token expired.","Token resetowania hasła wygasł.",module,Magento_Customer
 "Please correct the transactional account email type.","Proszę poprawić typ transakcyjnego konta e-mail.",module,Magento_Customer
@@ -1986,6 +1999,11 @@ Global,Globalny,module,Magento_Customer
 "The password can not begin or end with a space.","Hasło nie można rozpocząć lub kończyć się spacją.",module,Magento_Customer
 Admin,Administrator,module,Magento_Customer
 "ALL GROUPS","WSZYSTKIE GRUPY",module,Magento_Customer
+"No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Nie znaleziono wpisu %fieldName = %fieldValue, %field2Name = %field2Value",module,Magento_Customer
+"File can not be saved to the destination folder.","Nie można zapisać plików w folderze docelowym.",module,Magento_Customer
+"Unable to create directory %1.","Nie udało się utworzyć katalogu: %1.",module,Magento_Customer
+"Destination folder is not writable or does not exists.","Folder docelowy nie jest zapisywalny lub nie istnieje.",module,Magento_Customer
+"Something went wrong while saving the file.","Coś się zepsuło podczas zapisywania plików.",module,Magento_Customer
 "Attribute object is undefined","Obiekt cechy jest niezdefiniowany",module,Magento_Customer
 """%1"" invalid type entered.","""%1"" wpisany nieprawidłowy typ.",module,Magento_Customer
 """%1"" contains non-alphabetic or non-numeric characters.","""%1"" zawiera znaki spoza alfabetu lub nieliczbowe.",module,Magento_Customer
@@ -2020,6 +2038,7 @@ label,etykieta,module,Magento_Customer
 "Please enter a customer email.","Proszę podać e-mail klienta.",module,Magento_Customer
 "A customer website ID must be specified when using the website scope.","ID witryny klienta musi być podane, kiedy używany jest zakres witryny.",module,Magento_Customer
 "Customer Group","Grupa klienta",module,Magento_Customer
+"You can't delete group ""%1"".","Nie można usunąć grupy ""%1"".",module,Magento_Customer
 "Customer Group already exists.","Grupa klientów już istnieje.",module,Magento_Customer
 "Cannot delete group.","Nie można usunąć grupy.",module,Magento_Customer
 "Error during VAT Number verification.","Błąd podczas weryfikacji numeru VAT.",module,Magento_Customer
@@ -2032,6 +2051,7 @@ label,etykieta,module,Magento_Customer
 "The VAT ID entered (%1) is not a valid VAT ID.","Podany numer (%1) nie jest prawidłowym numerem VAT.",module,Magento_Customer
 "Your Tax ID cannot be validated.","Twój numer VAT nie może zostać zweryfikowany.",module,Magento_Customer
 "If you believe this is an error, please contact us at %1","Jeśli uważasz, że to błąd, skontaktuj się z nami - %1",module,Magento_Customer
+"No such entity with %fieldName = %fieldValue","Nie znaleziono %fieldName = %fieldValue",module,Magento_Customer
 Male,Mężczyzna,module,Magento_Customer
 Female,Kobieta,module,Magento_Customer
 "Not Specified","Nie określono",module,Magento_Customer
@@ -2046,7 +2066,9 @@ Exception,Wyjątek,module,Magento_Customer
 "Validator Exception","Walidator wyjątku",module,Magento_Customer
 "Localized Exception","Zlokalizowanie wyjątku",module,Magento_Customer
 "some error",błąd,module,Magento_Customer
+"NOT LOGGED IN","NIE ZALOGOWANY",module,Magento_Customer
 "Please enter the state/province.","Prosimy wpisać region/województwo.",module,Magento_Customer
+"region is a required field.","pole Region jest wymagane.",module,Magento_Customer
 Label,Etykieta,module,Magento_Customer
 Select...,Wybierz...,module,Magento_Customer
 Edit,Zmień,module,Magento_Customer
@@ -3066,6 +3088,7 @@ Subscribers,Subskrybenci,module,Magento_Newsletter
 "This email address is already assigned to another user.","Ten e-mail jest już przypisany do innego użytkownika.",module,Magento_Newsletter
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Niestety, administrator wyłączył subskrypcje dla gości. Prosimy <a href=%1"">zarejestruj się</a>."".",module,Magento_Newsletter
 "Please enter a valid email address.","Prosimy wpisać poprawny adres e-mail",module,Magento_Newsletter
+"This email address is already subscribed.","Ten adres email jest już zarejestrowany.",module,Magento_Newsletter
 "The confirmation request has been sent.","Prośba o potwierdzenie została wysłana.",module,Magento_Newsletter
 "Thank you for your subscription.","Dziękujemy za twoją subskrypcję",module,Magento_Newsletter
 "There was a problem with the subscription: %1","Wystąpił problem z subskrypcją: %1",module,Magento_Newsletter
@@ -3082,6 +3105,7 @@ Paused,Zatrzymany,module,Magento_Newsletter
 "We cannot mark as received subscriber.","Nie można oznaczyć jako subskrybenta.",module,Magento_Newsletter
 "Duplicate template code","Klonuj kod szablonu",module,Magento_Newsletter
 "Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Użyj tego linku aby się wypisać <!-- Tag dla linku wypisu  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>",module,Magento_Newsletter
+"No such entity with %fieldName = %fieldValue","Nie znaleziono %fieldName = %fieldValue",module,Magento_Newsletter
 "Choose Store View:","Wybierz widok sklepu:",module,Magento_Newsletter
 "Newsletter Message Preview","Podgląd newslettera",module,Magento_Newsletter
 "Add to Queue","Dodaj do kolejki",module,Magento_Newsletter
@@ -4361,6 +4385,7 @@ Home,"Strona główna",module,Magento_Sales
 "Path ""%1"" is not part of allowed directory ""%2""","Ścieżka ""%1"" nie jest częścią dozwolonych katalogu ""%2""",module,Magento_Sales
 "Identifying Fields required","Określenie pola wymagane",module,Magento_Sales
 "Id required","Wymagany identyfikator",module,Magento_Sales
+"""Invoice Document Validation Error(s):\n"" .","""Dokument sprzedaży - Faktura - błąd(błędy) podczas sprawdzania:\n"".",module,Magento_Sales
 "Could not save an invoice, see error log for details","Nie można zapisać faktury, aby uzyskać szczegółowe informacje zobacz dziennik błędów",module,Magento_Sales
 "A hold action is not available.","Akcja odblokowania jest niedostępna.",module,Magento_Sales
 "You cannot remove the hold.","Nie można usunąć ładowania.",module,Magento_Sales
@@ -5820,6 +5845,7 @@ Password:,Hasło:,module,Magento_Customer
 "Check the status of orders","Sprawdź status zamówienia",module,Magento_Customer
 "View past orders","Przeglądania historii zamówień",module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","Wielu adresów dostawy (np. jeśli często wysyłasz coś do rodziny i znajomych)",module,Magento_Customer
+"Please confirm your %store_name account","Proszę potwierdzić swoje konto %store_name",module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","Musisz potwierdzić e-mail %customer_email przed możesz zalogować (link obowiązuje tylko raz):",module,Magento_Customer
 "Confirm Your Account","Potwierdź konto",module,Magento_Customer
 "Thank you for confirming your %store_name account.","Dziękuję za potwierdzenie konta na %store_name.",module,Magento_Customer
@@ -5836,11 +5862,14 @@ Password:,Hasło:,module,Magento_Customer
 "There was recently a request to change the password for your account.","Otrzymaliśmy żądanie zmiany hasła dla Twojego konta.",module,Magento_Customer
 "If you requested this change, set a new password here:","Jeśli zażądałeś tej zmiany, ustaw swoje hasło tutaj:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Jeśli nie chcesz zmieniać hasła, możesz zignorować ten komunikat i hasło pozostanie takie samo.",module,Magento_Customer
+"Your %store_name password has been changed","Zmieniono hasło dla konta %store_name",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Otrzymaliśmy informację z prośbą o zmianę następujących informacji na Twoim koncie %store_name: hasło.",module,Magento_Customer
+"Checkout as a new customer","Kontynuuj Podsumowanie jako nowy klient",module,Magento_Customer
 "Creating an account has many benefits:","Stworzenie konta ma wiele korzyści:",module,Magento_Customer
 "See order and shipping status","Zobacz zamówienie i stan wysyłki",module,Magento_Customer
 "Track order history","Śledzenie historii zamówień",module,Magento_Customer
 "Check out faster","Zamawiaj szybciej",module,Magento_Customer
+"Checkout using your account","Kontynuuj Podsumowanie używając swojego konta",module,Magento_Customer
 "Email Address","Adres e-mail",module,Magento_Customer
 "Currency Update Warnings","Ostrzeżenia aktualizacji waluty",module,Magento_Directory
 Footer,Stopka,module,Magento_Email
@@ -5950,6 +5979,8 @@ Adding...,Dodawanie...,module,Magento_Catalog
 Added,Dodane,module,Magento_Catalog
 "unselect all","odznacz wszystko",module,Magento_Catalog
 Close,Zamknij,module,Magento_CheckoutAgreements
+"Field ","Pole ",module,Magento_Checkout
+" is required."," jest wymagane.",module,Magento_Checkout
 "Provided Zip/Postal Code seems to be invalid.","Wprowadzony kod pocztowy jest nieprawidłowy.",module,Magento_Checkout
 " Example: "," Przykład: ",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Jeżeli uważasz że to prawda możesz zignorować to powiadomienie.",module,Magento_Checkout
@@ -6020,6 +6051,7 @@ Cancel,Anuluj,module,Magento_ProductVideo
 Delete,Usuń,module,Magento_ProductVideo
 "Edit Video","Edycja wideo",module,Magento_ProductVideo
 "Images and Videos","Zdjęcia i filmy",module,Magento_ProductVideo
+"Please select one of each of the ratings above.","Wybierz jedną z powyższych ocen.",module,Magento_Review
 "This won't take long . . .","To nie potrwa długo...",module,Magento_Rule
 "Your coupon was successfully removed.","Twój kupon został pomyślnie usunięty.",module,Magento_SalesRule
 "Your coupon was successfully applied.","Twój kupon został pomyślnie zastosowany.",module,Magento_SalesRule
@@ -6085,6 +6117,7 @@ Keyword,"Słowo kluczowe",module,Magento_Ui
 "Please enter a valid email address (Ex: johndoe@domain.com).","Podaj poprawny adres email (Ex: johndoe@domain.com).",module,Magento_Ui
 "Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Prosimy o wprowadzenie 6 lub więcej znaków. Początkowe lub końcowe spacje zostaną zignorowane.",module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","Proszę wpisać 7 lub więcej znaków, zarówno litery i cyfry.",module,Magento_Ui
+"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Minimalna ilość znaków w tym polu musi być równa lub większa %1. Spacje początkowe i końcowe są ignorowane.",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Prosimy o wprowadzenie poprawnego URL. Wymagany jest protokół (http://, https:// lub ftp://).",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","Prosimy o wprowadzenie poprawnego URL. Dla przykładu: http://www.strona.pl lub www.strona.pl.",module,Magento_Ui
 "Please enter a valid XML-identifier (Ex: something_1, block5, id-4).","Wprowadź prawidłowy identyfikator XML (Np: something_1, block5, id-4).",module,Magento_Ui
@@ -6690,6 +6723,7 @@ Details,Szczegóły,module,Magento_Catalog
 "Checkout Options","Opcje zamówienia",module,Magento_Checkout
 "Enable Onepage Checkout","Włącz składanie zamówienia na jednej stronie",module,Magento_Checkout
 "Allow Guest Checkout","Zezwól na zamówienia składane przez niezalogowanych",module,Magento_Checkout
+"Display Billing Address On","Wyświetlić adres rozliczeniowy na",module,Magento_Checkout
 "Maximum Number of Items to Display in Order Summary","Maksymalna liczba elementów do wyświetlenia w Podsumowanie zamówienia",module,Magento_Checkout
 "Quote Lifetime (days)","Czas przechowywania zawartości koszyka (dni)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Po dodaniu produktu przekieruj do koszyka",module,Magento_Checkout
@@ -6697,6 +6731,8 @@ Details,Szczegóły,module,Magento_Catalog
 "Display Cart Summary","Wyświetl podsumowanie koszyka",module,Magento_Checkout
 "Shopping Cart Sidebar","Koszyk w pasku bocznym",module,Magento_Checkout
 "Display Shopping Cart Sidebar","Wyświetlaj koszyk w pasku bocznym",module,Magento_Checkout
+"Number of Items to Display Scrollbar","Liczba elementów do wyświetlenia paska przewijania",module,Magento_Checkout
+"Maximum Number of Items to Display","Maksymalna liczba wyświetlanych elementów",module,Magento_Checkout
 "Payment Failed Emails","E-maile o nieudanej płatności",module,Magento_Checkout
 "Payment Failed Email Sender","Nadawca e-maila o nieudanej płatności",module,Magento_Checkout
 "Payment Failed Email Receiver","Odbiorca e-maila o nieudanej płatności",module,Magento_Checkout
@@ -6743,11 +6779,13 @@ Block,Blok,module,Magento_Cms
 "General Information",Ogólne,module,Magento_Cms
 "Enable Block","Włącz blok",module,Magento_Cms
 "Block Title","Tytuł bloku",module,Magento_Cms
+"Are you sure you want to delete selected items?","Czy na pewno chcesz usunąć wszystkie zaznaczone towary?",module,Magento_Cms
 "Delete items","Usuń pozycje",module,Magento_Cms
 "Page Information","Informacje o stronie",module,Magento_Cms
 "Enable Page","Włącz stronę",module,Magento_Cms
 Content,Zawartość,module,Magento_Cms
 "Content Heading","Nagłowek treści",module,Magento_Cms
+"Search Engine Optimization","Optymalizacja dla wyszukiwarek",module,Magento_Cms
 "Meta Title","Meta tytuł",module,Magento_Cms
 "Meta Keywords","Słowa kluczowe",module,Magento_Cms
 "Meta Description","Opis strony META",module,Magento_Cms
@@ -6889,6 +6927,7 @@ Currency,Waluta,module,Magento_CurrencySymbol
 "Online Customers Options","Opcje klientów online",module,Magento_Customer
 "Online Minutes Interval","Długość sesji klientów",module,Magento_Customer
 "Leave empty for default (15 minutes).","Pozostaw puste dla domyślnej wartości (15 minut)",module,Magento_Customer
+"Customer Notification","Powiadomienie klienta",module,Magento_Customer
 "Assign a Customer Group","Przypisz grupę klientów",module,Magento_Customer
 "Customer Grid","Siatka klientów",module,Magento_Customer
 "Rebuild Customer grid index","Odbuduj indeks siatki klientów",module,Magento_Customer

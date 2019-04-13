@@ -27,6 +27,7 @@ notice,informacja,module,Magento_AdminNotification
 "Wrong message type","Nieprawidłowy typ wiadomości",module,Magento_AdminNotification
 "Wrong notification ID specified.","Niepoprawny ID powiadomienia.",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","Nie zaleca się używania {{base_url}} jako bazowego adresu URL w środowisku produkcyjnym. Radzimy zmianę tej wartości w <a href=""%1"">konfiguracji</a>.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Istnieją nieaktualne pamięci podręczne: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Przejdź do <a href=""%1"">strony zarządzania pamięciami podręcznymi</a> i odśwież je.",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","Nie byliśmy w stanie zsynchronizować jednego lub więcej plików multimedialnych. Zajrzyj do pliku z logami po więcej szczegółów.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Ukończono synchronizację przechowalni multimediów.",module,Magento_AdminNotification
@@ -37,6 +38,7 @@ notice,informacja,module,Magento_AdminNotification
 "System messages","Komunikaty systemowe",module,Magento_AdminNotification
 Close,Zamknij,module,Magento_AdminNotification
 "See All (","Zobacz wszystkie (",module,Magento_AdminNotification
+" unread)"," nieprzeczytane)",module,Magento_AdminNotification
 "Please correct the data sent.","Proszę poprawić przesyłane dane.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","Nie znaleziono typu modelu '%1'",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Model obiektu musi być instancją \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
@@ -82,6 +84,7 @@ void,unieważniony,module,Magento_Authorizenet
 "Credit Card Number","Numer karty kredytowej",module,Magento_Authorizenet
 "Expiration Date","Data ważności",module,Magento_Authorizenet
 "Card Verification Number","Numer weryfikacyjny karty",module,Magento_Authorizenet
+"Fraud Detection ","Wykrywanie nadużyć ",module,Magento_Authorizenet
 "FDS Filter Action","Akcja filtru FDS",module,Magento_Authorizenet
 "AVS Response","Odpowiedź AVS",module,Magento_Authorizenet
 "Card Code Response","Kod Karty Odpowiedzi",module,Magento_Authorizenet
@@ -214,6 +217,7 @@ To,Do,module,Magento_Backend
 "Date selector","Selektor daty",module,Magento_Backend
 "[ deleted ]","[ usunięty ]",module,Magento_Backend
 "Select All","Zaznacz wszystko",module,Magento_Backend
+" [deleted]"," [usunięty]",module,Magento_Backend
 "We couldn't find any records.","Nie mogliśmy znaleźć żadnych rekordów.",module,Magento_Backend
 "Add New","Dodaj nowe",module,Magento_Backend
 "Invalid export type supplied for grid export block","Nieprawidłowy typ eksportu zastosowany dla bloku eksportu tabeli",module,Magento_Backend
@@ -279,6 +283,7 @@ Error,Błąd,module,Magento_Backend
 "The store does not exist","Sklep nie istnieje",module,Magento_Backend
 "Store view doesn't exist","Widok sklepu nie istnieje",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","Przed modyfikacją kodu widoku sklepu upewnij się, że nie jest on używany w index.php.",module,Magento_Backend
+"New ","Nowy ",module,Magento_Backend
 "All Stores","Wszystkie sklepy",module,Magento_Backend
 "You saved the website.","Zapisano witrynę.",module,Magento_Backend
 "The default store cannot be disabled","Domyślny sklep nie może zostać wyłączony",module,Magento_Backend
@@ -1038,6 +1043,7 @@ Category,Kategoria,module,Magento_Catalog
 "SKU length should be %1 characters maximum.","Długość SKU musi mieć co najmniej %1 znaków.",module,Magento_Catalog
 "Please enter a valid number in this field.","Prosimy o wprowadzenie poprawnego numeru w tym polu.",module,Magento_Catalog
 "We found a duplicate website, tier price, customer group and quantity.","Znaleziono zduplikowaną witrynę, poziom cen, grupę klientów i ilość.",module,Magento_Catalog
+"Percentage value must be a number between 0 and 100.","Wartość procentowa musi być liczbą pomiędzy 0 i 100.",module,Magento_Catalog
 "Invalid option id %1","Błędny identyfikator opcji %1",module,Magento_Catalog
 "Can not create attribute set based on non product attribute set.","Nie można utworzyć zestawu atrybutów na podstawie zestawu atrybutów dla nie produktów.",module,Magento_Catalog
 "Can not create attribute set based on not existing attribute set","Nie można utworzyć zestawu cech w oparciu o nie istniejący zestaw cech",module,Magento_Catalog
@@ -1172,7 +1178,7 @@ Required,Wymagane,module,Magento_Catalog
 "Add Related Products","Dodaj produkty",module,Magento_Catalog
 "An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.","Produkty typu „up-sell” są dla klientów droższą lub lepszą jakościowo alternatywą dla oglądanych przez nich produktów.",module,Magento_Catalog
 "Add Up-Sell Products","Dodaj produkty",module,Magento_Catalog
-"Up-Sell Products","Produkty Up-Sell",module,Magento_Catalog
+"Up-Sell Products","Produkty Up-Sell ",module,Magento_Catalog
 "These ""impulse-buy"" products appear next to the shopping cart as cross-sells to the items already in the shopping cart.","Produkty typu „cross-sell” pojawiają się w koszyku jako dodatki zwiększające wielkość zamówienia.",module,Magento_Catalog
 "Add Cross-Sell Products","Dodaj produkty",module,Magento_Catalog
 "Cross-Sell Products","Produkty Cross-sell",module,Magento_Catalog
@@ -1263,6 +1269,7 @@ Role,Rola,module,Magento_Catalog
 "Unselect Visible","Odznacz widoczne",module,Magento_Catalog
 "Special Price","Cena promocyjna",module,Magento_Catalog
 "Regular Price","Normalna cena",module,Magento_Catalog
+"Buy %1 for: ","Kup %1 za: ",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Kup %1 po %2 za każdy i <strong class=""benefit"">zaoszczędź<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",module,Magento_Catalog
 "Buy %1 for %2 each","Kup %1 dla %2 poszczególnych",module,Magento_Catalog
 "Shop By","Kupuj wg",module,Magento_Catalog
@@ -1369,7 +1376,9 @@ Checkout,Zamówienie,module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Coś się poszło nie tak jak powinno podczas przetwarzania Twojego zamówienia. Prosimy spróbować ponownie później.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 nie rozszerza \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "Payment Method","Metoda płatności",module,Magento_Checkout
+"Payment Page","Strona płatności",module,Magento_Checkout
 "We can't find the product.","Produkt nie został odnaleziony.",module,Magento_Checkout
+"We found an invalid request for adding product to quote.","Znaleźliśmy błędne polecenia dodania produktu do zapytania.",module,Magento_Checkout
 "The product does not exist.","Produkt nie istnieje.",module,Magento_Checkout
 "We don't have some of the products you want.","Nie posiadamy kilku produktów, których potrzebujesz.",module,Magento_Checkout
 "We don't have as many of some products as you want.","Nie posiadamy tak dużej ilości produktów jakiej oczekujesz.",module,Magento_Checkout
@@ -1383,6 +1392,8 @@ Checkout,Zamówienie,module,Magento_Checkout
 "Unable to save shipping information. Please check input data.","Nie udało się zapisać informacji o dostawie. Proszę o sprawdzenie wpisanych danych.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Nie odnaleziono dostawcy i jego formy dostawy: %1, %2",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","Metoda dostawy nie jest stosowana dla pustego koszyka",module,Magento_Checkout
+" item"," pozycja",module,Magento_Checkout
+" items"," przedmioty",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","Obliczanie sumy nie jest stosowane do pustego koszyka",module,Magento_Checkout
 "Invalid data","Nieprawidłowe dane",module,Magento_Checkout
 "The customer address is not valid.","Adres klienta nie jest prawidłowy.",module,Magento_Checkout
@@ -1414,7 +1425,7 @@ Subtotal,"Suma częściowa",module,Magento_Checkout
 "Edit item parameters","Zmień parametry",module,Magento_Checkout
 Edit,Zmień,module,Magento_Checkout
 "Remove item","Usuń produkt",module,Magento_Checkout
-"You have no items in your shopping cart.","Nie masz produktów w koszyku.",module,Magento_Checkout
+"You have no items in your shopping cart.","Nie posiadasz produktów w koszyku.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","Kliknij <a href=""%1"">tutaj</a>, aby kontynuować zakupy.",module,Magento_Checkout
 "Estimate Tax","Oszacuj podatek",module,Magento_Checkout
 "Estimate Shipping and Tax","Koszt dostawy i podatku",module,Magento_Checkout
@@ -1490,6 +1501,9 @@ Pages,Strony,module,Magento_Cms
 "Enabled by Default","Włączone domyślnie",module,Magento_Cms
 "Disabled by Default","Wyłączone domyślnie",module,Magento_Cms
 "Disabled Completely","Wyłączone kompletnie",module,Magento_Cms
+"This identifier is reserved for ""CMS No Route Page"" in configuration.","Ten identyfikator jest zarezerwowany dla ""CMS Brak Strony"" w konfiguracji.",module,Magento_Cms
+"This identifier is reserved for ""CMS Home Page"" in configuration.","Ten identyfikator jest zarezerwowany dla ""CMS Strona główna"" w konfiguracji.",module,Magento_Cms
+"This identifier is reserved for ""CMS No Cookies Page"" in configuration.","Ten identyfikator jest zarezerwowany dla ""Pliki cookie na stronie CMS "" w konfiguracji.",module,Magento_Cms
 "Could not save the page: %1","Nie można zapisać strony: %1",module,Magento_Cms
 "CMS Page with id ""%1"" does not exist.","strona CMS o id ""%1"" nie istnieje.",module,Magento_Cms
 "Could not delete the page: %1","Nie można usunąć strony: %1",module,Magento_Cms
@@ -1508,6 +1522,8 @@ Exception,Wyjątek,module,Magento_Cms
 "Could not create a directory.","Nie można utworzyć katalogu.",module,Magento_Cms
 Edit,Zmień,module,Magento_Cms
 Delete,Usuń,module,Magento_Cms
+"Delete %1","Usuń %1",module,Magento_Cms
+"Are you sure you want to delete a %1 record?","Czy na pewno chcesz usunąć rekord ""%1""?",module,Magento_Cms
 "All Store Views","Wszystkie widoki sklepu",module,Magento_Cms
 View,Zobacz,module,Magento_Cms
 "No files found","Nie znaleziono plików",module,Magento_Cms
@@ -1878,6 +1894,7 @@ Download,Pobierz,module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Jeśli jesteś zarejestrowanym płatnikiem VAT, proszę <a href=""%1""> kliknij tutaj,</a> aby wprowadzić swój adres do właściwego obliczenia podatku VAT.",module,Magento_Customer
 "Account Information","Dane konta",module,Magento_Customer
 "You saved the account information.","Dane konta zostały zapisane.",module,Magento_Customer
+"You did not sign in correctly or your account is temporarily disabled.","Nie zalogowałeś się poprawnie lub Twoje konto zostało tymczasowo wyłączone.",module,Magento_Customer
 "Password confirmation doesn't match entered password.","Potwierdzone hasło nie jest identyczne z wprowadzonym.",module,Magento_Customer
 "The password doesn't match this account.","Hasło nie pasuje do tego konta.",module,Magento_Customer
 "Please correct the email address.","Proszę poprawić adres e-mail.",module,Magento_Customer
@@ -1900,6 +1917,7 @@ Download,Pobierz,module,Magento_Customer
 "Please correct the quote items and try again.","Proszę poprawić wymienione elementy i spróbować ponownie.",module,Magento_Customer
 "You have revoked the customer's tokens.","Unieważniłeś token klienta.",module,Magento_Customer
 "We can't find a customer to revoke.","Nie możemy znaleźć klienta do odwołania.",module,Magento_Customer
+"Something went wrong while saving file.","Coś się zepsuło podczas zapisywania.",module,Magento_Customer
 "You deleted the customer group.","Usunięto grupę klientów.",module,Magento_Customer
 "The customer group no longer exists.","Grupa klientów już nie istnieje.",module,Magento_Customer
 Customers,Klienci,module,Magento_Customer
@@ -1933,7 +1951,10 @@ Customers,Klienci,module,Magento_Customer
 "No confirmation needed.","Nie potrzeba potwierdzenia.",module,Magento_Customer
 "Account already active","Konto już aktywne",module,Magento_Customer
 "Invalid confirmation token","Nieprawidłowy token potwierdzenia",module,Magento_Customer
+"The account is locked.","To konto jest zablokowane.",module,Magento_Customer
 "This account is not confirmed.","To konto nie zostało potwierdzone.",module,Magento_Customer
+"Invalid value of ""%value"" provided for the %fieldName field.","Nieprawidłowa wartość ""%value"" przewidziana polu %fieldname.",module,Magento_Customer
+"Please enter a password with at most %1 characters.","Proszę wprowadzić hasło z co najmniej %1 znaków.",module,Magento_Customer
 "Please enter a password with at least %1 characters.","Proszę wprowadzić hasło z co najmniej %1 znaków.",module,Magento_Customer
 "The password can't begin or end with a space.","Hasło nie można rozpocząć lub kończyć się spacją.",module,Magento_Customer
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimalna różność klas w haśle to %1. Klasy postaci: małe znaki, wielkie znaki, cyfry, znaki specjalne.",module,Magento_Customer
@@ -1953,6 +1974,11 @@ Global,Globalny,module,Magento_Customer
 "The password can not begin or end with a space.","Hasło nie można rozpocząć lub kończyć się spacją.",module,Magento_Customer
 Admin,Administrator,module,Magento_Customer
 "ALL GROUPS","WSZYSTKIE GRUPY",module,Magento_Customer
+"No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Nie znaleziono wpisu %fieldName = %fieldValue, %field2Name = %field2Value",module,Magento_Customer
+"File can not be saved to the destination folder.","Nie można zapisać plików w folderze docelowym.",module,Magento_Customer
+"Unable to create directory %1.","Nie udało się utworzyć katalogu: %1.",module,Magento_Customer
+"Destination folder is not writable or does not exists.","Folder docelowy nie jest zapisywalny lub nie istnieje.",module,Magento_Customer
+"Something went wrong while saving the file.","Coś się zepsuło podczas zapisywania plików.",module,Magento_Customer
 "Attribute object is undefined","Obiekt cechy jest niezdefiniowany",module,Magento_Customer
 """%1"" invalid type entered.","""%1"" wpisany nieprawidłowy typ.",module,Magento_Customer
 """%1"" contains non-alphabetic or non-numeric characters.","""%1"" zawiera znaki spoza alfabetu lub nieliczbowe.",module,Magento_Customer
@@ -1987,6 +2013,7 @@ label,etykieta,module,Magento_Customer
 "Please enter a customer email.","Proszę podać e-mail klienta.",module,Magento_Customer
 "A customer website ID must be specified when using the website scope.","ID witryny klienta musi być podane, kiedy używany jest zakres witryny.",module,Magento_Customer
 "Customer Group","Grupa klienta",module,Magento_Customer
+"You can't delete group ""%1"".","Nie można usunąć grupy ""%1"".",module,Magento_Customer
 "Customer Group already exists.","Grupa klientów już istnieje.",module,Magento_Customer
 "Cannot delete group.","Nie można usunąć grupy.",module,Magento_Customer
 "Error during VAT Number verification.","Błąd podczas weryfikacji numeru VAT.",module,Magento_Customer
@@ -1999,6 +2026,7 @@ label,etykieta,module,Magento_Customer
 "The VAT ID entered (%1) is not a valid VAT ID.","Podany numer (%1) nie jest prawidłowym numerem VAT.",module,Magento_Customer
 "Your Tax ID cannot be validated.","Twój numer VAT nie może zostać zweryfikowany.",module,Magento_Customer
 "If you believe this is an error, please contact us at %1","Jeśli uważasz, że to błąd, skontaktuj się z nami - %1",module,Magento_Customer
+"No such entity with %fieldName = %fieldValue","Nie znaleziono %fieldName = %fieldValue",module,Magento_Customer
 Male,Mężczyzna,module,Magento_Customer
 Female,Kobieta,module,Magento_Customer
 "Not Specified","Nie określono",module,Magento_Customer
@@ -2013,7 +2041,9 @@ Exception,Wyjątek,module,Magento_Customer
 "Validator Exception","Walidator wyjątku",module,Magento_Customer
 "Localized Exception","Zlokalizowanie wyjątku",module,Magento_Customer
 "some error",błąd,module,Magento_Customer
+"NOT LOGGED IN","NIE ZALOGOWANY",module,Magento_Customer
 "Please enter the state/province.","Prosimy wpisać region/województwo.",module,Magento_Customer
+"region is a required field.","pole Region jest wymagane.",module,Magento_Customer
 Label,Etykieta,module,Magento_Customer
 Select...,Wybierz...,module,Magento_Customer
 Edit,Zmień,module,Magento_Customer
@@ -2645,6 +2675,7 @@ History,Historia,module,Magento_ImportExport
 "Show more","Pokaż więcej",module,Magento_ImportExport
 "Additional data","Dodatkowe dane",module,Magento_ImportExport
 "Following Error(s) has been occurred during importing process:","Podczas importowania wystąpiły następujące problemy:",module,Magento_ImportExport
+"Only the first 100 errors are shown. ","Tylko pierwsze 100 błędów jest wyświetlane. ",module,Magento_ImportExport
 "Download full report","Pobierz pełny raport",module,Magento_ImportExport
 "Make sure your file isn't more than %1M.","Upewnij się, że twój plik nie ma więcej niż %1M.",module,Magento_ImportExport
 "We can't provide the upload settings right now.","W tej chwili nie możemy dostarczyć ustawień wysyłania.",module,Magento_ImportExport
@@ -2961,6 +2992,8 @@ Items,Pozycje,module,Magento_Multishipping
 "Back to Select Addresses","Wróć do wyboru adresów",module,Magento_Multishipping
 "Thank you for your purchase!","Dziękujemy za złożenie zamówienia!",module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","Dziękujemy za Twoje zamówienie. Prześlemy Ci wiadomość e-mail ze szczegóły zamówienia i informacją do jego śledzenia.",module,Magento_Multishipping
+"Your order numbers are: ","Numery twoich zamówień to: ",module,Magento_Multishipping
+"Your order number is: ","Numer twojego zamówienia to: ",module,Magento_Multishipping
 "Continue Shopping","Kontynuuj zakupy",module,Magento_Multishipping
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","Nie można raportować zdarzeń Crona, ponieważ nie skonfigurowano identyfikatora aplikacji New Relic",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
@@ -3039,6 +3072,7 @@ Subscribers,Subskrybenci,module,Magento_Newsletter
 "This email address is already assigned to another user.","Ten e-mail jest już przypisany do innego użytkownika.",module,Magento_Newsletter
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Niestety, administrator wyłączył subskrypcje dla gości. Prosimy <a href=%1"">zarejestruj się</a>."".",module,Magento_Newsletter
 "Please enter a valid email address.","Prosimy wpisać poprawny adres e-mail",module,Magento_Newsletter
+"This email address is already subscribed.","Ten adres email jest już zarejestrowany.",module,Magento_Newsletter
 "The confirmation request has been sent.","Prośba o potwierdzenie została wysłana.",module,Magento_Newsletter
 "Thank you for your subscription.","Dziękujemy za twoją subskrypcję",module,Magento_Newsletter
 "There was a problem with the subscription: %1","Wystąpił problem z subskrypcją: %1",module,Magento_Newsletter
@@ -3055,11 +3089,13 @@ Paused,Zatrzymany,module,Magento_Newsletter
 "We cannot mark as received subscriber.","Nie można oznaczyć jako subskrybenta.",module,Magento_Newsletter
 "Duplicate template code","Klonuj kod szablonu",module,Magento_Newsletter
 "Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Użyj tego linku aby się wypisać <!-- Tag dla linku wypisu  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>",module,Magento_Newsletter
+"No such entity with %fieldName = %fieldValue","Nie znaleziono %fieldName = %fieldValue",module,Magento_Newsletter
 "Choose Store View:","Wybierz widok sklepu:",module,Magento_Newsletter
 "Newsletter Message Preview","Podgląd newslettera",module,Magento_Newsletter
 "Add to Queue","Dodaj do kolejki",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","Czy na pewno chcesz usunąć wszystkie znaczniki?",module,Magento_Newsletter
 "Please enter a new template name.","Podaj nową nazwę szablonu.",module,Magento_Newsletter
+" Copy","  Kopia",module,Magento_Newsletter
 "Are you sure you want to delete this template?","Czy na pewno chcesz usunąć ten szablon?",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Subskrybuj nasz newsletter:",module,Magento_Newsletter
 "Enter your email address","Wprowadź swój adres e-mail",module,Magento_Newsletter
@@ -3148,6 +3184,7 @@ No,Nie,module,Magento_Payment
 "Failure #2","Niepowodzenie #2",module,Magento_Payment
 "Expiration Date","Data ważności",module,Magento_Payment
 "Card Verification Number","Numer weryfikacyjny karty",module,Magento_Payment
+" is not available. You still can process offline actions."," nie jest dostępny. Nadal można przetwarzać działań offline.",module,Magento_Payment
 "Please Select",Wybierz,module,Magento_Payment
 "We'll ask for your payment details before you place an order.","Będziemy prosić o szczegóły płatności zanim złożysz zamówienie.",module,Magento_Payment
 "--Please Select--","-- Prosimy wybrać --",module,Magento_Payment
@@ -3257,7 +3294,7 @@ No,Nie,module,Magento_Paypal
 "For Virtual Quotes Only","Tylko dla wirtualnych wycen",module,Magento_Paypal
 "Ask Customer","Zapytaj klienta",module,Magento_Paypal
 Never,Nigdy,module,Magento_Paypal
-"IPN (Instant Payment Notification) Only","Tylko IPN (Instant Payment Notification)",module,Magento_Paypal
+"IPN (Instant Payment Notification) Only","Tylko IPN (Instant Payment Notification) ",module,Magento_Paypal
 "API Signature","Podpis API",module,Magento_Paypal
 "API Certificate","Certyfikat API",module,Magento_Paypal
 "The ordering amount of %1 is pending approval on the payment gateway.","Kwota zamówienia %1 oczekuje na zatwierdzenie na bramki płatności.",module,Magento_Paypal
@@ -3275,7 +3312,7 @@ Never,Nigdy,module,Magento_Paypal
 "The merchant account is not yet verified.","Konto handlowca nie jest zweryfikowane.",module,Magento_Paypal
 "Sorry, but something went wrong. Please contact PayPal customer service.","Przepraszamy, ale coś poszło nie tak. Proszę skontaktować się z obsługa klienta PayPal.",module,Magento_Paypal
 "Buyer claims that the goods or service received differ from merchant’s description of the goods or service.","Kupujący twierdzi, iż towary lub usługi które otrzymał, różnią się od opisu dostarczonego przez sprzedawcę.",module,Magento_Paypal
-"A case that has been resolved and close requires a reimbursement.","Sprawa zakończona i zamknięta wymaga zwrotu kosztów.",module,Magento_Paypal
+"A case that has been resolved and close requires a reimbursement.","Sprawa zakończona i zamknięta wymaga zwrotu kosztów. ",module,Magento_Paypal
 "Payer ID","ID płatnika",module,Magento_Paypal
 "Payer Email","E-mail płatnika",module,Magento_Paypal
 "Payer Status","Status płatnika",module,Magento_Paypal
@@ -3378,6 +3415,7 @@ Funding,Fundowanie,module,Magento_Paypal
 "General (Purchase with a credit card)","Ogólne (zakup z kartą kredytowa)",module,Magento_Paypal
 "General Adjustment without businessrelated event","Ogólne dostosowanie bez wydarzenia powiązanego biznesowo",module,Magento_Paypal
 "General Currency Conversion","Ogólna konwersja walut",module,Magento_Paypal
+"General Funding of PayPal Account ","Ogólne żródło zasilania konta PayPal ",module,Magento_Paypal
 "General Redemption","Ogólne wykorzystanie",module,Magento_Paypal
 "General Withdrawal from PayPal Account","Ogólne wypłaty z konta PayPal",module,Magento_Paypal
 "General. Product no longer supported","Ogólne. Produkt już nie wspierany",module,Magento_Paypal
@@ -3433,7 +3471,10 @@ Customer,Klient,module,Magento_Paypal
 "Updated At",Zaktualizowano,module,Magento_Paypal
 ending,końcówka,module,Magento_Paypal
 expires,wygasa,module,Magento_Paypal
+"Not sure what PayPal payment method to use? Click ","Nie wiesz jakie metody płatności PayPal użyć? Kliknij przycisk ",module,Magento_Paypal
 here,tutaj,module,Magento_Paypal
+" to learn more."," aby dowiedzieć się więcej.",module,Magento_Paypal
+"Important: ","Ważne: ",module,Magento_Paypal
 "To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","W celu użycia Płatności Zaawansowanych PayPal, musisz skonfigurować konto Płatności Zaawansowanych PayPal na stronie PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Kiedy zalogujesz się do swojego konta Zaawansowanego PayPal, przejdź do zakładki Ustawienia usługi - Hosted Checkout Pages - Menu ustawień i ustaw opcje opisane poniżej",module,Magento_Paypal
 "To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","W celu użycia PayPal Payflow Link, musisz skonfigurować konto PayPal PayFlow Link na stronie PayPal.",module,Magento_Paypal
@@ -3442,6 +3483,7 @@ here,tutaj,module,Magento_Paypal
 "Credit Card Number","Numer karty kredytowej",module,Magento_Paypal
 "Expiration Date","Data ważności",module,Magento_Paypal
 "Card Verification Number","Numer weryfikacyjny karty",module,Magento_Paypal
+"Billing Agreement # ","Umowa rozliczeniowa # ",module,Magento_Paypal
 "Agreement Information","Informacje umowy",module,Magento_Paypal
 "Reference ID:","ID referencji",module,Magento_Paypal
 Created:,Utworzono:,module,Magento_Paypal
@@ -3461,6 +3503,7 @@ View,Zobacz,module,Magento_Paypal
 "-- Please Select --","-- Prosimy wybrać --",module,Magento_Paypal
 Create...,Utwórz,module,Magento_Paypal
 "Your credit card will be charged for","Twoja karta kredytowa zostanie obciążona kwotą",module,Magento_Paypal
+"Your billing agreement # is: ","Identyfikator twojej umowy rozliczeniowej to: ",module,Magento_Paypal
 "Shipping Method","Metoda dostawy",module,Magento_Paypal
 "Please select a shipping method...","Prosimy wybrać metodę dostawy...",module,Magento_Paypal
 "Update Shipping Method","Zaktualizuj metodę dostawy",module,Magento_Paypal
@@ -3714,7 +3757,7 @@ Reviews,Opinie,module,Magento_Reports
 "Product Reviews",Opinie,module,Magento_Reports
 Details,Szczegóły,module,Magento_Reports
 Sales,Sprzedaż,module,Magento_Reports
-"Bestsellers Report","Raport Bestsellerów",module,Magento_Reports
+"Bestsellers Report","Raport Bestsellerów ",module,Magento_Reports
 Coupons,Kupony,module,Magento_Reports
 "Coupons Report","Raport kuponów",module,Magento_Reports
 "Invoice Report","Raportu faktur",module,Magento_Reports
@@ -4172,6 +4215,7 @@ Reorder,"Zamów ponownie",module,Magento_Sales
 "This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","To zamówienie zawiera (%1) produktów i dlatego nie może być teraz edytowane z poziomu panelu administracyjnego. Jeśli chcesz kontynuować edycję (%2) produktów zostanie usuniętych, aktualne zamówienie zostanie anulowane, a na jego miejsce zostanie utworzone nowe.",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Czy jesteś pewien? To zamówienie zostanie usunięte a w miejsce niego zostanie utworzone nowe.",module,Magento_Sales
 "Save Gift Message","Zapisz wiadomość prezentową",module,Magento_Sales
+" [deleted]"," [usunięty]",module,Magento_Sales
 "Order Credit Memos","Notatki faktur korygujących",module,Magento_Sales
 "Credit memo #%1 created","Faktura korygująca nr %1 została utworzona",module,Magento_Sales
 "Credit memo #%1 comment added","Komentarz do faktury korygującej nr %1 został dodany",module,Magento_Sales
@@ -4317,6 +4361,8 @@ Home,"Strona główna",module,Magento_Sales
 "We can't find this wish list.","Nie udało się odnaleźć tej listy życzeń.",module,Magento_Sales
 "We could not add a product to cart by the ID ""%1"".","Nie można dodać produktu do koszyka przez ID ""%1"".",module,Magento_Sales
 "There is an error in one of the option rows.","W jednym z rzędów opcji jest błąd.",module,Magento_Sales
+"Shipping Address: ","Adres dla dostawy: ",module,Magento_Sales
+"Billing Address: ","Adres rozliczeniowy: ",module,Magento_Sales
 "Please specify order items.","Proszę określić kolejność elementów.",module,Magento_Sales
 "Please specify a shipping method.","Proszę wybrać sposób dostawy.",module,Magento_Sales
 "Please specify a payment method.","Prosimy o wybór metody płatności.",module,Magento_Sales
@@ -4327,6 +4373,7 @@ Home,"Strona główna",module,Magento_Sales
 "Path ""%1"" is not part of allowed directory ""%2""","Ścieżka ""%1"" nie jest częścią dozwolonych katalogu ""%2""",module,Magento_Sales
 "Identifying Fields required","Określenie pola wymagane",module,Magento_Sales
 "Id required","Wymagany identyfikator",module,Magento_Sales
+"""Invoice Document Validation Error(s):\n"" .","""Dokument sprzedaży - Faktura - błąd(błędy) podczas sprawdzania:\n"".",module,Magento_Sales
 "Could not save an invoice, see error log for details","Nie można zapisać faktury, aby uzyskać szczegółowe informacje zobacz dziennik błędów",module,Magento_Sales
 "A hold action is not available.","Akcja odblokowania jest niedostępna.",module,Magento_Sales
 "You cannot remove the hold.","Nie można usunąć ładowania.",module,Magento_Sales
@@ -4394,8 +4441,10 @@ Mixed,Mieszany,module,Magento_Sales
 "Approved the payment online.","Zaakceptowana płatność online.",module,Magento_Sales
 "There is no need to approve this payment.","Nie ma potrzeby akceptowania tej płatności.",module,Magento_Sales
 "Denied the payment online","Odrzucona płatność online",module,Magento_Sales
-"Registered update about approved payment.","Zarejestrowano aktualizację o zaakceptowanej płatności.",module,Magento_Sales
-"Registered update about denied payment.","Zarejestrowano aktualizację o odrzuconej płatności.",module,Magento_Sales
+"Registered update about approved payment.","Zarejestrowano aktualizację o zaakceptowanej płatności.
+",module,Magento_Sales
+"Registered update about denied payment.","Zarejestrowano aktualizację o odrzuconej płatności.
+",module,Magento_Sales
 "There is no update for the payment.","Nie ma aktualizacji tej płatności.",module,Magento_Sales
 "Voided authorization.","Unieważniona autoryzacja.",module,Magento_Sales
 "Amount: %1.","Kwota: %1.",module,Magento_Sales
@@ -4414,6 +4463,8 @@ Authorization,Autoryzacja,module,Magento_Sales
 "Please set a proper payment and order id.","Proszę ustawić właściwy identyfikator zamówienia i płatność.",module,Magento_Sales
 "Please enter a Transaction ID.","Podaj ID transakcji.",module,Magento_Sales
 "You can't do this without a transaction object.","Nie może tego zrobić bez obiektu transakcji.",module,Magento_Sales
+"Order # ","Zamówienie # ",module,Magento_Sales
+"Order Date: ","Data zamówienia: ",module,Magento_Sales
 "Sold to:",Sprzedano:,module,Magento_Sales
 "Ship to:","Dane dostawy:",module,Magento_Sales
 "Payment Method:","Metoda płatności:",module,Magento_Sales
@@ -4428,6 +4479,8 @@ Products,Produkty,module,Magento_Sales
 Qty,Ilość,module,Magento_Sales
 Tax,Podatek,module,Magento_Sales
 "Total (inc)","z VAT",module,Magento_Sales
+"Credit Memo # ","Nota kredytowa nr  ",module,Magento_Sales
+"Invoice # ","Faktura nr  ",module,Magento_Sales
 "The order object is not specified.","Przedmiot zamówienia nie został określony.",module,Magento_Sales
 "The source object is not specified.","Obiekt źródłowy nie został określony.",module,Magento_Sales
 "An item object is not specified.","Nie określono elementu obiektu.",module,Magento_Sales
@@ -4435,6 +4488,7 @@ Tax,Podatek,module,Magento_Sales
 "A PDF page object is not specified.","Strona obiektu PDF nie została określona.",module,Magento_Sales
 "Excl. Tax","Bez podatku",module,Magento_Sales
 "Incl. Tax","Z podatkiem",module,Magento_Sales
+"Packing Slip # ","List przewozowy # ",module,Magento_Sales
 title,tytuł,module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","%1 całkowity wzór PDF musi znajdować się albo rozszerzyć po \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.",module,Magento_Sales
 "We cannot register an existing shipment","Nie można zarejestrować istniejącej wysyłki",module,Magento_Sales
@@ -4502,6 +4556,7 @@ New,Nowy,module,Magento_Sales
 "test message","wiadomość testowa",module,Magento_Sales
 "Email has not been sent","E-mail nie został wysłany",module,Magento_Sales
 "Authorized amount of %1","Autoryzowana kwota %1",module,Magento_Sales
+" Transaction ID: ""%1"""," ID transakcji: ""%1""",module,Magento_Sales
 View,Zobacz,module,Magento_Sales
 "Group was removed","Grupa została usunięta",module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.","Zmiana informacji adresowy nie przeliczy dostawy, podatku lub innych kwot zamówienia.",module,Magento_Sales
@@ -4648,7 +4703,7 @@ Actions,Operacje,module,Magento_Sales
 "No shipping information available","Brak informacji o wysyłce",module,Magento_Sales
 "Print Order","Wydrukuj zamówienie",module,Magento_Sales
 "Print All Invoices","Drukuj faktury",module,Magento_Sales
-"Invoice #","Faktura nr",module,Magento_Sales
+"Invoice #","Faktura nr  ",module,Magento_Sales
 "Print Invoice","Drukuj fakturę",module,Magento_Sales
 "Qty Invoiced","Zafakturowana ilość",module,Magento_Sales
 Close,Zamknij,module,Magento_Sales
@@ -4720,7 +4775,8 @@ Reports,Raporty,module,Magento_Search
 "Synonym group with id %1 cannot be deleted. %2","Grupa synonimów o id %1 nie może zostać usunięta. %2",module,Magento_Search
 "Merge conflict with existing synonym group(s): %1","Wystąpił konflikt łączenia z istniejącą grupą lub grupami synonimów: %1",module,Magento_Search
 "All Websites","Wszystkie witryny",module,Magento_Search
-"All Store Views","Wszystkie widoki sklepów",module,Magento_Search
+"    All Store Views","    Wszystkie widoki sklepów",module,Magento_Search
+"All Store Views","Wszystkie widoki sklepu",module,Magento_Search
 Delete,Usuń,module,Magento_Search
 "Are you sure you want to delete synonym group with id: %1?","Czy na pewno chcesz usunąć grupę synonimów o id: %1?",module,Magento_Search
 View/Edit,Wyświetl/Edytuj,module,Magento_Search
@@ -4913,14 +4969,17 @@ Action,Operacja,module,Magento_Shipping
 "Shipment History","Historia dostawy",module,Magento_Shipping
 "Qty Shipped","Ilość dostarczona",module,Magento_Shipping
 "Print All Shipments","Wydrukuj wszystkie wysyłki",module,Magento_Shipping
-"Shipment #","Dostawa nr",module,Magento_Shipping
+"Shipment #","Dostawa nr ",module,Magento_Shipping
 "Print Shipment","Wydrukuj wysyłkę",module,Magento_Shipping
 "Tracking Number(s):","Numer śledzenia",module,Magento_Shipping
 "Order tracking","Śledzenie zleceń",module,Magento_Shipping
 "Tracking Number:","Numer śledzenia:",module,Magento_Shipping
 Carrier:,Dostawca:,module,Magento_Shipping
 Error:,Błąd:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","Informacje o śledzeniu nie są aktualnie dostępne ",module,Magento_Shipping
 "contact us","skontaktuj się z nami",module,Magento_Shipping
+" for more information or "," po więcej informacji lub ",module,Magento_Shipping
+"email us at ","napisz do nas na adres ",module,Magento_Shipping
 Info:,Informacje:,module,Magento_Shipping
 Track:,Ślad:,module,Magento_Shipping
 "Delivered on:",Dostarczono:,module,Magento_Shipping
@@ -5140,7 +5199,9 @@ Total,Łącznie,module,Magento_Tax
 "Including Tax","Z podatkiem",module,Magento_Tax
 None,Brak,module,Magento_Tax
 "Including and Excluding Tax","Zawierające i niezawierające podatek",module,Magento_Tax
+"Store(s) affected: ","Dotyczy sklepów: ",module,Magento_Tax
 "Click on the link to <a href=""%1"">ignore this notification</a>","Kliknij na link, aby <a href=""%1""> zignorować tą informację</a>",module,Magento_Tax
+"Please see <a href=""%1"">documentation</a> for more details. ","By uzyskać więcej szczegółów przejdź do <a href=""%1"">dokumentacji</a>. ",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","Kliknij tutaj, aby przejść do <a href=%1"">zarządzania podatkami</a> i zmienić ustawienia."".",module,Magento_Tax
 "Invalid type of tax class ""%1""","Nieprawidłowy typ klasy podatku ""%1""",module,Magento_Tax
 "Updating classType is not allowed.","Aktualizowanie classType jest niedozwolone.",module,Magento_Tax
@@ -5735,13 +5796,6 @@ Back,Powrót,module,Magento_Wishlist
 "Remove This Item","Usuń ten element",module,Magento_Wishlist
 "Go to Wish List","Przejdź do listy życzeń",module,Magento_Wishlist
 "You have no items in your wish list.","Nie masz żadnych produktów na liście życzeń.",module,Magento_Wishlist
-"Now Shopping by","Kupuj przez",theme,frontend/Magento/luma
-Previous,Wstecz,theme,frontend/Magento/luma
-Remove,Usuń,theme,frontend/Magento/luma
-"Remove This Item","Usuń ten element",theme,frontend/Magento/luma
-"Shop By","Kupuj wg",theme,frontend/Magento/luma
-"Clear All","Wyczyść wszystko",theme,frontend/Magento/luma
-"Shopping Options","Opcje zakupów",theme,frontend/Magento/luma
 "Place Order","Złóż zamówienie",module,Magento_Authorizenet
 "Credit Card Information","Informacje karty kredytowej",module,Magento_Braintree
 "What is this?","Co to jest?",module,Magento_Braintree
@@ -5801,6 +5855,7 @@ Password:,Hasło:,module,Magento_Customer
 "Check the status of orders","Sprawdź status zamówienia",module,Magento_Customer
 "View past orders","Przeglądania historii zamówień",module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","Wielu adresów dostawy (np. jeśli często wysyłasz coś do rodziny i znajomych)",module,Magento_Customer
+"Please confirm your %store_name account","Proszę potwierdzić swoje konto %store_name",module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","Musisz potwierdzić e-mail %customer_email przed możesz zalogować (link obowiązuje tylko raz):",module,Magento_Customer
 "Confirm Your Account","Potwierdź konto",module,Magento_Customer
 "Thank you for confirming your %store_name account.","Dziękuję za potwierdzenie konta na %store_name.",module,Magento_Customer
@@ -5817,6 +5872,7 @@ Password:,Hasło:,module,Magento_Customer
 "There was recently a request to change the password for your account.","Otrzymaliśmy żądanie zmiany hasła dla Twojego konta.",module,Magento_Customer
 "If you requested this change, set a new password here:","Jeśli zażądałeś tej zmiany, ustaw swoje hasło tutaj:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Jeśli nie chcesz zmieniać hasła, możesz zignorować ten komunikat i hasło pozostanie takie samo.",module,Magento_Customer
+"Your %store_name password has been changed","Zmieniono hasło dla konta %store_name",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Otrzymaliśmy informację z prośbą o zmianę następujących informacji na Twoim koncie %store_name: hasło.",module,Magento_Customer
 "Checkout out as a new customer","Kontynuuj jako nowy klient",module,Magento_Customer
 "Creating an account has many benefits:","Stworzenie konta ma wiele korzyści:",module,Magento_Customer
@@ -5910,51 +5966,6 @@ Filters,Filtry,module,Magento_Ui
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name chce się z tobą podzielić tą listą życzeń z %store_name:",module,Magento_Wishlist
 "Message from %customer_name:","Wiadomość od %customer_name:",module,Magento_Wishlist
 "View all Wish List items","Zobacz wszystkie elementy listy życzeń",module,Magento_Wishlist
-"Welcome to %store_name","Witamy w %store_name",theme,frontend/Magento/luma
-"Welcome to %store_name.","Witamy w %store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Aby zalogować się na naszej stronie, Użyj tych poświadczeń podczas realizacji zamówienia lub na stronie <a href=""%customer_url"">Moje konto</a>:",theme,frontend/Magento/luma
-Email:,E-mail:,theme,frontend/Magento/luma
-Password:,Hasło:,theme,frontend/Magento/luma
-"Password you set when creating account","Hasło, które można ustawić podczas tworzenia konta",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Zapomniałeś swojego hasła? Kliknij <a href=""%reset_url""> tutaj</a>, aby je zresetować.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","Gdy zalogujesz się na swoje konto, będziesz mógł:",theme,frontend/Magento/luma
-"Quick Checkout","Szybkie zamówienie",theme,frontend/Magento/luma
-"Proceed through checkout faster","Przejdź szybciej przez proces zakupowy",theme,frontend/Magento/luma
-"Order Status","Status zamówienia",theme,frontend/Magento/luma
-"Check the status of orders","Sprawdź status zamówienia",theme,frontend/Magento/luma
-"Manage Addresses","Zarządzaj adresami",theme,frontend/Magento/luma
-"Store alternative addresses","Alternatywny adres sklepu",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","Koszty wysyłki do wielu członków rodziny i przyjaciół",theme,frontend/Magento/luma
-"Order History","Historia zamówień",theme,frontend/Magento/luma
-"View past orders","Przeglądania historii zamówień",theme,frontend/Magento/luma
-Footer,Stopka,theme,frontend/Magento/luma
-"About Us","O Nas",theme,frontend/Magento/luma
-"Customer Service","Obsługa klienta",theme,frontend/Magento/luma
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Godziny pracy: < br / ><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Credit memo for your %store_name order","Faktura korygująca do zamówienia %store_name",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","Dziękuję za Twoje zamówienie z %store_name.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Status zamówienia można sprawdzić po <a href=""%account_url""> zalogowaniu się do swojego konta</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Jeśli masz pytania dotyczące Twojego zamówienia, możesz napisz do nas na <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","Twoja korekta #%creditmemo_id do zamówienia #%order_id",theme,frontend/Magento/luma
-"Billing Info","Informacje rozliczeniowe",theme,frontend/Magento/luma
-"Shipping Info","Informacje wysyłkowe",theme,frontend/Magento/luma
-"Payment Method","Metoda płatności",theme,frontend/Magento/luma
-"Shipping Method","Metoda dostawy",theme,frontend/Magento/luma
-"Update to your %store_name credit memo","Aktualizacja do faktury korygującej %store_name",theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Twoje zamówienie #%increment_id zostało wzbogacone o status <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Invoice for your %store_name order","Faktura za zamówienie %store_name",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","Twoja #%invoice_id faktura dla zamówienia #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name invoice","Aktualizacja do faktury %store_name",theme,frontend/Magento/luma
-"Your %store_name order confirmation","Potwierdzenie zamówienia w sklepie %store_name",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","Kiedy twoja paczka będzie już w drodze wyślemy tobie numer do śledzenia transportu.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","Twoje zamówienie <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","Umieszczony na <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Update to your %store_name order","Aktualizacja do zamówienia w sklepie %store_name",theme,frontend/Magento/luma
-"Your %store_name order has shipped","Twoje zamówienie w sklepie %store_name zostało wysłane",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Potwierdzenie wysyłki jest poniżej. Jeszcze raz dziękuję za twoje zamówienie.",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","Twój #%shipment_id wysyłki dla zamówienia #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name shipment","Aktualizacja do przesyłki %store_name",theme,frontend/Magento/luma
 "Sorry, but something went wrong. Please contact the seller.","Przepraszamy, ale coś poszło nie tak. Proszę skontaktować się ze sprzedawcą.",module,Magento_Authorizenet
 "We could not detect a size.","Nie można wykryć rozmiaru.",module,Magento_Backend
 "We don't recognize or support this file extension type.","Nie możemy rozpoznać lub obsługiwać tego typu rozszerzenia pliku.",module,Magento_Backend
@@ -5962,6 +5973,7 @@ Footer,Stopka,theme,frontend/Magento/luma
 YY,RR,module,Magento_Braintree
 "Please try again with another form of payment.","Proszę spróbować ponownie z inną formę płatności.",module,Magento_Braintree
 "Sorry, but something went wrong.","Przepraszamy, coś poszło nie tak.",module,Magento_Braintree
+"Payment ","Płatność ",module,Magento_Braintree
 "Add Products to New Option","Dodawaj produkty do nowych opcji",module,Magento_Bundle
 "Add Products to Option ""%1""","Dodaj produkty do opcji ""%1""",module,Magento_Bundle
 "Warning message","Komunikat ostrzegawczy",module,Magento_Catalog
@@ -5977,7 +5989,10 @@ Adding...,Dodawanie...,module,Magento_Catalog
 Added,Dodane,module,Magento_Catalog
 "unselect all","odznacz wszystko",module,Magento_Catalog
 Close,Zamknij,module,Magento_CheckoutAgreements
+"Field ","Pole ",module,Magento_Checkout
+" is required."," jest wymagane.",module,Magento_Checkout
 "Provided Zip/Postal Code seems to be invalid.","Wprowadzony kod pocztowy jest nieprawidłowy.",module,Magento_Checkout
+" Example: "," Przykład: ",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Jeżeli uważasz że to prawda możesz zignorować to powiadomienie.",module,Magento_Checkout
 "New Address","Nowy adres",module,Magento_Checkout
 "Are you sure you would like to remove this item from the shopping cart?","Czy na pewno chcesz usunąć ten produkt z koszyka?",module,Magento_Checkout
@@ -6015,12 +6030,18 @@ Medium,Średni,module,Magento_Customer
 Strong,Silny,module,Magento_Customer
 "Very Strong","Bardzo silne",module,Magento_Customer
 "Guest checkout is disabled.","Możliwość składania zamówień przez użytkowników niezalogowanych jest wyłączona.",module,Magento_Customer
+"Field ","Pole ",module,Magento_Dhl
+" is required."," jest wymagane.",module,Magento_Dhl
 "We could not detect a size.","Nie można wykryć rozmiaru.",module,Magento_Downloadable
+"Field ","Pole ",module,Magento_Fedex
+" is required."," jest wymagane.",module,Magento_Fedex
 "Sorry, something went wrong. Please try again later.","Przepraszamy coś poszło nie tak. Prosimy spróbować ponownie później.",module,Magento_Integration
 Allow,Zezwól,module,Magento_Integration
 Done,Gotowe,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Nie możemy dokończyć zamówienia ponieważ nie masz ustawionej metody płatności.",module,Magento_Multishipping
 "Please choose a payment method.","Wybierz metodę płatności.",module,Magento_Multishipping
+"Field ","Pole ",module,Magento_OfflineShipping
+" is required."," jest wymagane.",module,Magento_OfflineShipping
 "Please enter a valid credit card type number.","Proszę podać poprawny numer karty kredytowej.",module,Magento_Payment
 "Please enter a valid credit card number.","Prosimy o wprowadzenie poprawnego numeru karty kredytowej.",module,Magento_Payment
 "Incorrect credit card expiration month.","Niepoprawny miesiąc wygaśnięcia karty kredytowej.",module,Magento_Payment
@@ -6032,6 +6053,7 @@ Done,Gotowe,module,Magento_Integration
 "Unknown video type","Nieznany typ pliku wideo",module,Magento_ProductVideo
 "Invalid video url","Nieprawidłowy adres url wideo",module,Magento_ProductVideo
 "Youtube API key is invalid","Klucz API YouTube jest nieprawidłowy",module,Magento_ProductVideo
+"Video cant be shown due to the following reason: ","Film nie może zostać wyświetlony z następujących przyczyn: ",module,Magento_ProductVideo
 "Video not found","Nie znaleziono filmu",module,Magento_ProductVideo
 "New Video","Nowe wideo",module,Magento_ProductVideo
 Save,Zapisz,module,Magento_ProductVideo
@@ -6042,6 +6064,7 @@ Delete,Usuń,module,Magento_ProductVideo
 "This won't take long . . .","To nie potrwa długo...",module,Magento_Rule
 "Your coupon was successfully removed.","Twój kupon został pomyślnie usunięty.",module,Magento_SalesRule
 "Your coupon was successfully applied.","Twój kupon został pomyślnie zastosowany.",module,Magento_SalesRule
+"Gift Options for ","Opcje podarunkowe dla ",module,Magento_Sales
 "Add Products","Dodaj produkty",module,Magento_Sales
 "You have item changes","Masz zmiany pozycji",module,Magento_Sales
 "These changes affect all related products.","Te zmiany wpływają na wszystkie powiązane produkty.",module,Magento_Swatches
@@ -6103,6 +6126,7 @@ Keyword,"Słowo kluczowe",module,Magento_Ui
 "Please enter a valid email address (Ex: johndoe@domain.com).","Podaj poprawny adres email (Ex: johndoe@domain.com).",module,Magento_Ui
 "Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Prosimy o wprowadzenie 6 lub więcej znaków. Początkowe lub końcowe spacje zostaną zignorowane.",module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","Proszę wpisać 7 lub więcej znaków, zarówno litery i cyfry.",module,Magento_Ui
+"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Minimalna ilość znaków w tym polu musi być równa lub większa %1. Spacje początkowe i końcowe są ignorowane.",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Prosimy o wprowadzenie poprawnego URL. Wymagany jest protokół (http://, https:// lub ftp://).",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","Prosimy o wprowadzenie poprawnego URL. Dla przykładu: http://www.strona.pl lub www.strona.pl.",module,Magento_Ui
 "Please enter a valid XML-identifier (Ex: something_1, block5, id-4).","Wprowadź prawidłowy identyfikator XML (Np: something_1, block5, id-4).",module,Magento_Ui
@@ -6130,6 +6154,10 @@ Keyword,"Słowo kluczowe",module,Magento_Ui
 "Please use tag SCRIPT with SRC attribute or with proper content to include JavaScript to the document.","Proszę użyć tagu SCRIPT z atrybutem SRC lub właściwą zawartością, aby dodać JavaScript do dokumentu.",module,Magento_Ui
 Attention,Uwaga,module,Magento_Ui
 Close,Zamknij,module,Magento_Ui
+"Field ","Pole ",module,Magento_Ups
+" is required."," jest wymagane.",module,Magento_Ups
+"Field ","Pole ",module,Magento_Usps
+" is required."," jest wymagane.",module,Magento_Usps
 Cancel,Anuluj,module,Magento_Vault
 "Show Toolbar","Pokaż pasek narzędzi",module,Magento_AdminNotification
 "Show List","Pokaż listę",module,Magento_AdminNotification
@@ -6266,6 +6294,11 @@ Security,Bezpieczeństwo,module,Magento_Backend
 Web,Sieć,module,Magento_Backend
 "Url Options","Opcje URL",module,Magento_Backend
 "Add Store Code to Urls","Dodaj kod sklepu do URL",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+<strong style=""color:red"">Uwaga!</strong> Używając kodu sklepu w adresach URL, w niektórych przypadkach system może nie działać poprawnie jeśli adresy URL bez kodów sklepu są określone w usługach innych firm (np. PayPal itp.).
+                    ",module,Magento_Backend
 "Auto-redirect to Base URL","Automatycznie przekieruj do bazowego URL",module,Magento_Backend
 "Search Engine Optimization","Optymalizacja dla wyszukiwarek",module,Magento_Backend
 "Use Web Server Rewrites","Używaj przekierowań serwera",module,Magento_Backend
@@ -6380,6 +6413,10 @@ Select...,Wybierz...,module,Magento_Braintree
 "Order ID","ID zamówienia",module,Magento_Braintree
 Type,Rodzaj,module,Magento_Braintree
 Amount,Kwota,module,Magento_Braintree
+"Settlement Code","Numer rozliczeniowy",module,Magento_Braintree
+"Settlement Response Text","Odpowiedź na rozliczenie",module,Magento_Braintree
+"Refund Ids","Numer zwrotu",module,Magento_Braintree
+"Settlement Batch ID","ID pakietu rozliczenia",module,Magento_Braintree
 Currency,Waluta,module,Magento_Braintree
 Select...,Wybierz...,module,Magento_Bundle
 Status,Stan,module,Magento_Bundle
@@ -6395,6 +6432,10 @@ Forms,Formularze,module,Magento_Captcha
 "Number of Symbols","Liczby lub symbole",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Prosimy podać maksymalnie 8 znaków. Zakres dozwolony (np. 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Symbole użyte w CAPTCHA",module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","
+Proszę używać tylko liter (a-z lub A-Z) lub liczb (0-9) w tej dziedzinie. Dozwolone są bez spacji lub inne znaki. < br / > podobne wyglądających znaków (np. ""i"", ""l"", ""1"") zmniejsza szanse na prawidłowe rozpoznawanie przez klienta.                    ",module,Magento_Captcha
 "Case Sensitive","Rozpoznaje wielkość liter",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Włącz CAPTCHA na sklepie",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA dla formularzy ""Tworzenie użytkownika"" i ""Zapomniane hasło"" będzie zawsze włączone, jeśli wybrane.",module,Magento_Captcha
@@ -6408,6 +6449,11 @@ Inventory,Magazyn,module,Magento_CatalogInventory
 "Only X left Threshold","Przedział do pozostało X produktów",module,Magento_CatalogInventory
 "Display Products Availability in Stock on Storefront","Pokazuj dostępność produktów w sklepie",module,Magento_CatalogInventory
 "Product Stock Options","Opcje stanów magazynowych",module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ","
+                    Prosimy pamiętać, że te ustawienia odnoszą się do poj. elementów w koszyku, a nie do całego koszyka.
+                ",module,Magento_CatalogInventory
 "Manage Stock","Zarządzaj stanami",module,Magento_CatalogInventory
 Backorders,Rezerwacje,module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","Maksymalna ilość w koszyku",module,Magento_CatalogInventory
@@ -6516,6 +6562,7 @@ Comma-separated.,"Oddzielone przecinkami.",module,Magento_Catalog
 "Use Static URLs for Media Content in WYSIWYG for Catalog","Zastosuj statyczne adresy URL dla multimediów w edytorze dla kategorii",module,Magento_Catalog
 "This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Dotyczy tylko katalogu produktów i kategorii. Treści graficzne będą wstawiane do edytora jako statyczne adresy URL. Treści graficzne nie są aktualizowane, jeśli bazowy adres URL jest zmieniony w konfiguracji.",module,Magento_Catalog
 "Top Level Category","Kategoria najwyższego poziomu",module,Magento_Catalog
+"Product Info Column","Kolumna informacji o produkcie",module,Magento_Catalog
 "Product Flat Data","Płaskie dane produktu",module,Magento_Catalog
 "Reorganize EAV product structure to flat structure","Przeorganizuj strukturę EAV produktów do płaskiej struktury",module,Magento_Catalog
 "Category Flat Data","Płaskie dane kategorii",module,Magento_Catalog
@@ -6618,8 +6665,12 @@ Enable,Włącz,module,Magento_Catalog
 Disable,Wyłącz,module,Magento_Catalog
 "Update attributes","Aktualizuj cechy",module,Magento_Catalog
 Overview,Podgląd,module,Magento_Catalog
+"Skip to the end of the images gallery","Przejdź na koniec galerii",module,Magento_Catalog
+"Skip to the beginning of the images gallery","Przejdź na początek galerii",module,Magento_Catalog
 Details,Szczegóły,module,Magento_Catalog
+"Recently Compared","Ostatnio porównywane",module,Magento_Catalog
 "Add To Cart","Dodaj do koszyka",module,Magento_Catalog
+"Add To Compare","Dodaj do porównania",module,Magento_Catalog
 "Learn more","Dowiedz się więcej",module,Magento_Catalog
 "Recently Viewed","Ostatnio oglądane",module,Magento_Catalog
 "Terms & Conditions",Regulamin,module,Magento_CheckoutAgreements
@@ -6627,6 +6678,7 @@ Details,Szczegóły,module,Magento_Catalog
 "Checkout Options","Opcje zamówienia",module,Magento_Checkout
 "Enable Onepage Checkout","Włącz składanie zamówienia na jednej stronie",module,Magento_Checkout
 "Allow Guest Checkout","Zezwól na zamówienia składane przez niezalogowanych",module,Magento_Checkout
+"Display Billing Address On","Wyświetlić adres rozliczeniowy na",module,Magento_Checkout
 "Maximum Number of Items to Display in Order Summary","Maksymalna liczba elementów do wyświetlenia w Podsumowanie zamówienia",module,Magento_Checkout
 "Quote Lifetime (days)","Czas przechowywania zawartości koszyka (dni)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Po dodaniu produktu przekieruj do koszyka",module,Magento_Checkout
@@ -6634,6 +6686,8 @@ Details,Szczegóły,module,Magento_Catalog
 "Display Cart Summary","Wyświetl podsumowanie koszyka",module,Magento_Checkout
 "Shopping Cart Sidebar","Koszyk w pasku bocznym",module,Magento_Checkout
 "Display Shopping Cart Sidebar","Wyświetlaj koszyk w pasku bocznym",module,Magento_Checkout
+"Number of Items to Display Scrollbar","Liczba elementów do wyświetlenia paska przewijania",module,Magento_Checkout
+"Maximum Number of Items to Display","Maksymalna liczba wyświetlanych elementów",module,Magento_Checkout
 "Payment Failed Emails","E-maile o nieudanej płatności",module,Magento_Checkout
 "Payment Failed Email Sender","Nadawca e-maila o nieudanej płatności",module,Magento_Checkout
 "Payment Failed Email Receiver","Odbiorca e-maila o nieudanej płatności",module,Magento_Checkout
@@ -6680,6 +6734,7 @@ Block,Blok,module,Magento_Cms
 "General Information",Ogólne,module,Magento_Cms
 "Enable Block","Włącz blok",module,Magento_Cms
 "Block Title","Tytuł bloku",module,Magento_Cms
+"Are you sure you want to delete selected items?","Czy na pewno chcesz usunąć wszystkie zaznaczone towary?",module,Magento_Cms
 "Delete items","Usuń pozycje",module,Magento_Cms
 "Page Information","Informacje o stronie",module,Magento_Cms
 "Enable Page","Włącz stronę",module,Magento_Cms
@@ -6753,6 +6808,7 @@ Contacts,Kontakty,module,Magento_Contact
 "Cookie Restriction Mode","Tryb ograniczenia cookie",module,Magento_Cookie
 "Cron (Scheduled Tasks)","Cron (zaplanowane zadania)",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set. All the times are in minutes.","Dla prawidłowo generowanych adresów URL podczas działania cron proszę upewnić się, że Sieć > Bezpieczne i Niezabezpieczone Bazowe URLs są zapisane. Wszystkie czasy są podane w minutach.",module,Magento_Cron
+"Cron configuration options for group: ","Opcje konfiguracja cron dla grupy: ",module,Magento_Cron
 "Generate Schedules Every","Generuj plan zadań co",module,Magento_Cron
 "Schedule Ahead for","Harmonogram dla",module,Magento_Cron
 "Missed if Not Run Within","Opuść jeśli nie zostanie uruchomione w ciągu",module,Magento_Cron
@@ -6783,10 +6839,24 @@ Currency,Waluta,module,Magento_CurrencySymbol
 "Default Welcome Email","Domyślny e-mail powitalny",module,Magento_Customer
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Wybrany szablon e-mail oparty na temacie fallback po wybraniu opcji ""Default"".",module,Magento_Customer
 "Default Welcome Email Without Password","Ustaw domyślną powitalną wiadomość Email bez hasła",module,Magento_Customer
+"
+                        This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.
+                    ","
+Ten email zostanie wysłany zamiast Domyślnego Emaila Przywitalnego, jeśli klient został dodany bez hasła.<br /><br />
+                        Szablon emaila wybierany w oparciu o hierarchię szablonów kiedy jest wybrana opcja ""Domyślny"".
+                    ",module,Magento_Customer
 "Email Sender",Nadawca,module,Magento_Customer
 "Require Emails Confirmation","Wymagaj potwierdzenia przez e-mail",module,Magento_Customer
 "Confirmation Link Email","E-mail z linkiem potwierdzającym",module,Magento_Customer
 "Welcome Email","E-mail powitalny",module,Magento_Customer
+"
+                        This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.
+                    ","
+Ten email zostanie wysłany zamiast Domyślnego Emaila Przywitalnego, po potwierdzeniu konta.<br /><br />
+                        Szablon emaila wybierany w oparciu o hierarchię szablonów kiedy jest wybrana opcja ""Domyślny"".
+                    ",module,Magento_Customer
 "Generate Human-Friendly Customer ID","Wygeneruj przyjazny ID klienta",module,Magento_Customer
 "Password Options","Opcje hasła",module,Magento_Customer
 "Forgot Email Template","Szablon wiadomości przypominającej o e-mailu",module,Magento_Customer
@@ -6810,6 +6880,10 @@ Currency,Waluta,module,Magento_CurrencySymbol
 "Show Prefix","Pokazuj prefiks",module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","Tytuł pojawiający się przed imieniem (Mr., Mrs., itp.)",module,Magento_Customer
 "Prefix Dropdown Options","Rozwijane opcje prefiksu",module,Magento_Customer
+"
+                        Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.
+                    ","
+Wartości oddzielone średnikiem (;). <br/>Umieść średnik na początku dla pierwszych pustych opcji. <br/>Pozostaw puste dla otwartego pola tekstowego.                    ",module,Magento_Customer
 "Show Middle Name (initial)","Pokazuj drugie imię (inicjał)",module,Magento_Customer
 "Always optional.","Zawsze opcjonalne.",module,Magento_Customer
 "Show Suffix","Pokazuj sufiks",module,Magento_Customer
@@ -6830,6 +6904,7 @@ Currency,Waluta,module,Magento_CurrencySymbol
 "Leave empty for default (15 minutes).","Pozostaw puste dla domyślnej wartości (15 minut)",module,Magento_Customer
 "Customer Data Lifetime","Okres istnienia danych klienta",module,Magento_Customer
 "Please specify value in minutes.","Podaj wartość w minutach.",module,Magento_Customer
+"Customer Notification","Powiadomienie klienta",module,Magento_Customer
 "Assign a Customer Group","Przypisz grupę klientów",module,Magento_Customer
 "Are you sure to assign selected customers to new group?","Czy na pewno chcesz przypisać wybranych klientów do nowej grupy?",module,Magento_Customer
 "Customer Grid","Siatka klientów",module,Magento_Customer
@@ -6898,6 +6973,10 @@ Debug,"Tryb debug",module,Magento_Dhl
 "Currency Setup","Ustawienia waluty",module,Magento_Directory
 "Currency Options","Opcje waluty",module,Magento_Directory
 "Base Currency","Waluta podstawowa",module,Magento_Directory
+"
+                        Base currency is used for all online payment transactions. The base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
+                    ","
+Waluta bazowa jest używana dla wszystkich transakcji płatności online. Zakres bazowej waluty jest zdefiniowany przez zakres cen katalogu (""Katalog"" > ""Cena"" > ""Zakres cen katalogu"").                    ",module,Magento_Directory
 "Default Display Currency","Domyślna wyświetlana waluta",module,Magento_Directory
 "Allowed Currencies","Dopuszczone waluty",module,Magento_Directory
 "Connection Timeout in Seconds","Timeout połączenia w sekundach",module,Magento_Directory
@@ -7151,6 +7230,7 @@ Export,Eksportuj,module,Magento_OfflineShipping
 "Specify backend port for config file generation. If field is empty default value 8080 will be saved.","Określ backend port do generowania pliku config. Jeśli pole jest puste domyślna wartość 8080 zostanie zapisana.",module,Magento_PageCache
 "Grace period","Okres karencji",module,Magento_PageCache
 "TTL for public content","TTL dla publicznych treści",module,Magento_PageCache
+"Public content cache lifetime in seconds. If field is empty default value 86400 will be saved. ","Publiczna zawartość pamięci podręcznej w sekundach. Jeśli pole jest puste wartość domyślna 86400 zostanie zapisana. ",module,Magento_PageCache
 "Page Cache","Cache strony",module,Magento_PageCache
 "Full page caching","Buforowanie stron",module,Magento_PageCache
 "Payment Methods Section","Sekcja Metod Płatności",module,Magento_Payment
@@ -7171,6 +7251,9 @@ Manage,Zarządzaj,module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","Akceptuj płatności z w pełni modyfikowalną stroną zamówienia.",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Dodaj PayPal jako dodatkową metodę płatności do strony zamówienia.",module,Magento_Paypal
 "Email Associated with PayPal Merchant Account (Optional)","E-mail powiązany z kontem handlowca PayPal (opcjonalne)",module,Magento_Paypal
+"
+                        <a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>
+                    ","                         <a href=""http://www.magentocommerce.com/paypal""> Rozpoczęcie przyjmowania płatności za pośrednictwem systemu PayPal!</a>                     ",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","Nie masz konta PayPal? Po prostu podaj swój adres e-mail.",module,Magento_Paypal
 "API Authentication Methods","Metody autentykacji API",module,Magento_Paypal
 "API Username","Nazwa użytkownika API",module,Magento_Paypal
@@ -7182,9 +7265,32 @@ Manage,Zarządzaj,module,Magento_Paypal
 "Proxy Port","Port proxy",module,Magento_Paypal
 "Enable this Solution","Włącz to rozwiązanie",module,Magento_Paypal
 "Enable In-Context Checkout Experience","Włącz w kontekście realizacji transakcji",module,Magento_Paypal
+"
+                    See PayPal Feature Support details and list of supported regions
+                    <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">here</a>.
+                ","                     Zobacz szczegóły obsługi funkcji PayPal i listę obsługiwanych regionów <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank""> tutaj</a>.                 ",module,Magento_Paypal
 "Merchant Account ID","Identyfikator konta sprzedawcy",module,Magento_Paypal
 "Enable PayPal Credit","Włącz PayPal Credit",module,Magento_Paypal
+"PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
+                        You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.
+                        <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
+                ","Realizacji transakcji PayPal Express umożliwia klientom dostęp do finansowania poprzez PayPal kredytowych ® - bez dodatkowych kosztów dla Ciebie.                         Można otrzymać pieniądze do przodu, nawet jeśli klienci mają więcej czasu, aby zapłacić. Wstępnie zintegrowane płatności przycisku pozwala swoim klientom szybko zapłacić PayPal kredytowych ®.                         <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank""> Dowiedz się więcej</a>                 ",module,Magento_Paypal
 "Advertise PayPal Credit","Reklama PayPal Credit",module,Magento_Paypal
+"
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                        <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                        from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                        Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                        The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                        or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Czemu reklamować finansowanie?</a><br/>
+                        <strong>Ponieważ daje Ci to wzrost sprzedaży.</strong><br/>PayPal pomaga zmienić przeglądających w kupujących dzięki finansowaniu
+                         z PayPal Credit&#174;. Twoi klienci mają więcej czasu na zapłatę, podczas gdy Ty dostajesz pieniądze z góry – bez żadnych dodatkowych kosztów z Twej strony.
+                        Użyj darmowych reklam banerowych PayPala, które pozwolą Ci reklamować finansowanie PayPal Credit&#174; jako opcję płatności, gdy Twoi klienci płacą przez PayPal.
+                        Zostało wykazane, że program reklamowy PayPala generuje dodatkowe zakupy, jak również zwiększa przeciętne o 15%
+                        i więcej. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Szczegóły</a>.
+                ",module,Magento_Paypal
 "Publisher ID","ID wydawcy",module,Magento_Paypal
 "Required to display a banner","Wymagane do wyświetlania banerów",module,Magento_Paypal
 "Get Publisher ID from PayPal","Uzyskaj identyfikator wydawcy z PayPal",module,Magento_Paypal
@@ -7220,9 +7326,16 @@ Title,Tytuł,module,Magento_Paypal
 "Enable PayPal Guest Checkout","Włącz gościnne zamówienia z PayPal",module,Magento_Paypal
 "Ability for buyer to purchase without PayPal account.","Możliwość kupowania bez posiadania konta PayPal",module,Magento_Paypal
 "Billing Agreement Signup","Rejestracja umowy rozliczeniowej",module,Magento_Paypal
+"
+                        Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.
+                    ","                        Handlowiec musi zgłosić się do PayPal w celu włączenia umów rozliczeniowych. Nie uruchamiaj tej opcji dopóki PayPal nie potwierdź, że umowy rozliczeniowe są uruchomione dla twojego konta handlowca.                    ",module,Magento_Paypal
 "Skip Order Review Step","Pomiń krok z podsumowaniem zamówienia",module,Magento_Paypal
 "PayPal Billing Agreement Settings","Ustawienia umowy rozliczeniowej PayPal",module,Magento_Paypal
 Enabled,Włączone,module,Magento_Paypal
+"
+                            Will appear as a payment option only for customers who have at least one active billing agreement.
+                        ","
+Pojawią się jako opcję płatności tylko dla klientów, którzy mają co najmniej jedną aktywną umowę płatności.                        ",module,Magento_Paypal
 "Allow in Billing Agreement Wizard","Dopuść w wizardzie umowy rozliczeniowej",module,Magento_Paypal
 "SFTP Credentials","Dane SFTP",module,Magento_Paypal
 Login,"Zaloguj się",module,Magento_Paypal
@@ -7238,16 +7351,45 @@ Schedule,Harmonogram,module,Magento_Paypal
 "Frontend Experience Settings","Ustawienia wyglądu",module,Magento_Paypal
 "Displays on catalog pages and homepage.","Wyświetla na stronach katalogu i stronie głownej.",module,Magento_Paypal
 "Page Style","Styl strony",module,Magento_Paypal
+"
+                            Allowable values: ""paypal"", ""primary"" (default), your_custom_value (a custom payment page style from your merchant account profile).
+                        ","
+Dopuszczalne wartości: ""paypal"", ""podstawowy"" (domyślnie), your_custom_value (niestandardowy styl strony płatności z profilu konta sprzedawcy).                        ",module,Magento_Paypal
 "Header Image URL","URL obrazka nagłówka",module,Magento_Paypal
+"
+                            The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.
+                        ","
+Zdjęcie u góry po lewej stronie zamówienia. Max rozmiar jest 750 x 90 pikseli. <strong style=""color:red""> https</strong> jest zalecane.                        ",module,Magento_Paypal
 "Header Background Color","Kolor tła nagłowka",module,Magento_Paypal
+"
+                            The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.
+                        ","                            Kolor tła nagłowka na stronie zakupu. 6-znakowy kod hexadecymalny w ASCII.                        ",module,Magento_Paypal
 "Header Border Color","Kolor ramki nagłówka",module,Magento_Paypal
 "2-pixel perimeter around the header space.","2-pikselowa odległość naokoło przestrzeni nagłówka.",module,Magento_Paypal
 "Page Background Color","Kolor tła strony",module,Magento_Paypal
+"
+                            The background color for the checkout page around the header and payment form.
+                        ","                             Kolor tła na stronie transakcji wokół postaci nagłówka i płatności.                         ",module,Magento_Paypal
 "Payments Advanced and Express Checkout","Zaawansowane Płatności i Ekspresowe Transakcje",module,Magento_Paypal
 Vendor,Dostawca,module,Magento_Paypal
 User,Użytkownik,module,Magento_Paypal
 "Test Mode","Tryb testowy",module,Magento_Paypal
 "Use Proxy","Używaj proxy",module,Magento_Paypal
+"
+                    <a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                            or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Czemu reklamować finansowanie?</a><br/>
+                                            <strong>Ponieważ daje Ci to wzrost sprzedaży.</strong><br/>PayPal pomaga zmienić przeglądających w kupujących dzięki finansowaniu
+                                            z PayPal Credit&#174;. Twoi klienci mają więcej czasu na zapłatę, podczas gdy Ty dostajesz pieniądze z góry – bez żadnych dodatkowych kosztów z Twej strony.
+                                            Użyj darmowych reklam banerowych PayPala, które pozwolą Ci reklamować finansowanie PayPal Credit&#174; jako opcję płatności, gdy Twoi klienci płacą przez PayPal.
+                                            Zostało wykazane, że program reklamowy PayPala generuje dodatkowe zakupy, jak również zwiększa przeciętne o 15%
+                                            i więcej. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Szczegóły</a>.
+                ",module,Magento_Paypal
 "Basic Settings - PayPal Payments Advanced","Podstawowe ustawienia - PayPal Payments Advanced",module,Magento_Paypal
 "It is recommended to set this value to ""Debit or Credit Card"" per store views.","Zalecane jest ustawienia tej wartości na ""Karta debetowa lub kredytowa"" na każy widok sklepu.",module,Magento_Paypal
 "CVV Entry is Editable","Pole CVV jest edytowalne",module,Magento_Paypal
@@ -7256,17 +7398,50 @@ User,Użytkownik,module,Magento_Paypal
 "Enable Payflow Link","Włącz Payflow Link",module,Magento_Paypal
 "Enable Express Checkout","Włącz Express Checkout",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","Podstawowe ustawienia - PayPal Payflow Link",module,Magento_Paypal
+"
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                            or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Czemu reklamować finansowanie?</a><br/>
+                            <strong>Ponieważ daje Ci to wzrost sprzedaży.</strong><br/>PayPal pomaga zmienić przeglądających w kupujących dzięki finansowaniu
+                            z PayPal Credit&#174;. Twoi klienci mają więcej czasu na zapłatę, podczas gdy Ty dostajesz pieniądze z góry – bez żadnych dodatkowych kosztów z Twej strony.
+                            Użyj darmowych reklam banerowych PayPala, które pozwolą Ci reklamować finansowanie PayPal Credit&#174; jako opcję płatności, gdy Twoi klienci płacą przez PayPal.
+                            Zostało wykazane, że program reklamowy PayPala generuje dodatkowe zakupy, jak również zwiększa przeciętne o 15%
+                            i więcej. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Szczegóły</a>.
+                ",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","Podstawowe ustawienia - PayPal Payments Pro Hosted Solution",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Website Payments Pro Hosted Solution i Express Checkout",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Podstawowe ustawienia - PayPal Website Payments Pro Hosted Solution",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","Podstawowe ustawienia - PayPal Payflow Pro",module,Magento_Paypal
 "Credit Card Settings","Ustawienia kart kredytowych",module,Magento_Paypal
 "Allowed Credit Card Types","Dozwolone rodzaje kart kredytowych",module,Magento_Paypal
+"
+                    Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.
+                ","Obsługa kart American Express wymaga dodatkowej umowy. Dowiedz się więcej na <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.",module,Magento_Paypal
 "CVV and AVS Settings","Ustawienia CVV i AVS",module,Magento_Paypal
 "Reject Transaction if:","Odrzucenie transakcji, jeśli:",module,Magento_Paypal
 "AVS Street Does Not Match","Droga AVS nie pasuje",module,Magento_Paypal
 "AVS Zip Does Not Match","Zip AVS nie pasuje",module,Magento_Paypal
 "Card Security Code Does Not Match","Kod bezpieczeństwa karty nie pasuje",module,Magento_Paypal
+"
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                                <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Czemu reklamować finansowanie?</a><br/>
+                                <strong>Ponieważ daje Ci to wzrost sprzedaży.</strong><br/>PayPal pomaga zmienić przeglądających w kupujących dzięki finansowaniu
+                                z PayPal Credit&#174;. Twoi klienci mają więcej czasu na zapłatę, podczas gdy Ty dostajesz pieniądze z góry – bez żadnych dodatkowych kosztów z Twej strony.
+                                Użyj darmowych reklam banerowych PayPala, które pozwolą Ci reklamować finansowanie PayPal Credit&#174; jako opcję płatności, gdy Twoi klienci płacą przez PayPal.
+                                Zostało wykazane, że program reklamowy PayPala generuje dodatkowe zakupy, jak również zwiększa przeciętne o 15%
+                                i więcej. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Szczegóły</a>.
+                ",module,Magento_Paypal
 "Persistent Shopping Cart","Trwały koszyk",module,Magento_Persistent
 "General Options","Opcje ogólne",module,Magento_Persistent
 "Enable Persistence","Włącz trwałą obecność",module,Magento_Persistent
@@ -7387,7 +7562,17 @@ General,Ogólne,module,Magento_Sales
 "Allow Reorder","Pozwól na ponowne zamówienie",module,Magento_Sales
 "Invoice and Packing Slip Design","Wygląd faktur i etykiet adresowych",module,Magento_Sales
 "Logo for PDF Print-outs (200x50)","Logo do wydruków PDF (200x50)",module,Magento_Sales
+"
+                        Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.
+                    ","
+                        Twoje domyślne logo będzie używane w dokumentach PDF i HTML.<br />(jpeg, tiff, png) Jeśli zdjęcie w PDF będzie zniekształcone, spróbuj użyć obrazka o większej rozdzielczości.
+                    ",module,Magento_Sales
 "Logo for HTML Print View","Logo do widoku HTML wydruku",module,Magento_Sales
+"
+                        Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)
+                    ","
+                        Logo tylko dla dokumentów HTML. Jeśli puste to zostanie użyte domyślne.<br />(jpeg, gif, png)
+                    ",module,Magento_Sales
 Address,Adres,module,Magento_Sales
 "Minimum Order Amount","Minimalna wielkość zamówienia",module,Magento_Sales
 Enable,Włącz,module,Magento_Sales
@@ -7681,6 +7866,8 @@ Translations,Tłumaczenia,module,Magento_Translation
 "Translation files","Pliki z tłumaczeniami",module,Magento_Translation
 "Log JS Errors to Session Storage","Dziennika błędów JS do przechowywania sesji",module,Magento_Ui
 "Log JS Errors to Session Storage Key","Dziennik błędów JS do przechowywania klucza sesji",module,Magento_Ui
+"settings/newViewLabel
+                    ",settings/newViewLabel,module,Magento_Ui
 Action,Operacja,module,Magento_Ui
 "Enabled for Checkout",Włączone,module,Magento_Ups
 "Allowed Methods","Dozwolone metody",module,Magento_Ups
@@ -7726,6 +7913,7 @@ Edit,Zmień,module,Magento_UrlRewrite
 "We will disable this feature if the value is empty.","Możemy wyłączyć tę funkcję, jeśli wartość jest pusta.",module,Magento_User
 "Lockout Time (minutes)","Czas blokady (w minutach)",module,Magento_User
 "Password Lifetime (days)","Czas życia hasła (dni)",module,Magento_User
+"We will disable this feature if the value is empty. ","Możemy wyłączyć tę funkcję, jeśli wartość jest pusta. ",module,Magento_User
 "Password Change","Zmiana hasła",module,Magento_User
 Unlock,Odblokuj,module,Magento_User
 Username,"Nazwa użytkownika",module,Magento_User
@@ -7821,6 +8009,3 @@ Configure,Konfiguruj,module,Magento_Wishlist
 Delete,Usuń,module,Magento_Wishlist
 "Product Details and Comment","Szczegóły i komentarze produktu",module,Magento_Wishlist
 "Add To Wishlist","Dodaj do listy życzeń",module,Magento_Wishlist
-"Account Dashboard",Panel,theme,frontend/Magento/luma
-"Address Book","Książka adresowa",theme,frontend/Magento/luma
-"Account Information","Dane konta",theme,frontend/Magento/luma
